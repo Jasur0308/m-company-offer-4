@@ -612,13 +612,16 @@ ul {
     .header,
     .mijoz__topish,
     .leads__system,
-    .how__it__works,
     .services,
     .packets,
     .why__us,
     .footer {
         padding-left: 30px;
         padding-right: 30px;
+    }
+
+    .how__it__works__content {
+        padding-left: 30px;
     }
 
     .services__content {
@@ -649,6 +652,10 @@ ul {
 
     .why__us__content {
         gap: 80px;
+    }
+
+    .footer {
+        padding-top: 0;
     }
 }
 
