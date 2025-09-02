@@ -498,7 +498,6 @@ ul {
     max-width: 1920px;
     width: 100%;
     padding: 0px 148px;
-    padding-top: 200px;
 }
 
 .footer__content {
@@ -652,10 +651,6 @@ ul {
 
     .why__us__content {
         gap: 80px;
-    }
-
-    .footer {
-        padding-top: 0;
     }
 }
 
