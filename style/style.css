@@ -120,9 +120,12 @@ ul {
 /* Cards */
 .mijoz__topish__cards {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     gap: 30px;
+    justify-content: center;
+    justify-items: center;
 }
 
 .card {
@@ -135,6 +138,9 @@ ul {
     color: #fff;
     box-shadow: 0 10px 30px rgba(0, 255, 200, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    will-change: transform, box-shadow;
+    min-width: 280px;
+    max-width: 380px;
 }
 
 .card:hover {
@@ -569,6 +575,12 @@ ul {
     gap: 20px;
 }
 
+.footer__bottom__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .footer__socials {
     display: flex;
     align-items: center;
@@ -618,7 +630,8 @@ ul {
     .services,
     .packets,
     .why__us,
-    .footer {
+    .footer,
+    .footer__bottom {
         padding-left: 30px;
         padding-right: 30px;
     }
